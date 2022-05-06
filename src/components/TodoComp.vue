@@ -1,6 +1,7 @@
 <template>
-  <div v-for="(todo, index) in todoList" :key="index">
-    <span></span>
+  <div class="todoList" v-for="(todo, index) in todoList" :key="index">
+    <input type="checkbox" v-model="todo.status" />
+    <span>{{ todo.title }}</span>
   </div>
 </template>
 
@@ -39,4 +40,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.todoList {
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+</style>
