@@ -12,18 +12,26 @@ export default {
         {
           title: "Viec 1",
           status: false,
+          ngayGiao: "",
+          ngayDone: "",
         },
         {
           title: "Viec 2",
           status: false,
+          ngayGiao: "",
+          ngayDone: "",
         },
         {
           title: "Viec 3",
           status: false,
+          ngayGiao: "",
+          ngayDone: "",
         },
         {
           title: "Viec 4",
           status: false,
+          ngayGiao: "",
+          ngayDone: "",
         },
       ],
     };
